@@ -28,8 +28,6 @@ export default defineConfig({
       },
     }),
     dts({
-      // @see https://github.com/qmhc/vite-plugin-dts/blob/main/CHANGELOG.md#breaking-changes
-      copyDtsFiles: true,
       rollupTypes: true,
     })
   ],
